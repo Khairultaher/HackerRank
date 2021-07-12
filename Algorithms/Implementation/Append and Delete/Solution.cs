@@ -14,7 +14,8 @@ using System;
 
 class MainClass {
   public static void Main (string[] args) {
-    string s = "ashley"; string t = "ash"; int k = 2;
+    
+    string s = "hackerhappy"; string t = "hackerrank"; int k = 9;
     string result = "ERROR";
         
      //if s == t then we just run an equation to determine if it can be done
@@ -28,8 +29,6 @@ class MainClass {
             
             for(int i = 0; i < Math.Min(s.Length, t.Length); i++)
             {
-                //ado
-                //adolol
                 if(s[i] != t[i])
                 {    
                     break;
